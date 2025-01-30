@@ -75,3 +75,6 @@ npm run dev
 ```
 
 4️⃣ Open the app in the browser: http://localhost:3001
+
+## Note
+1️⃣ Please run Backend first and then Frontend
