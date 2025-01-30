@@ -79,7 +79,7 @@ npm run dev
 ## 3️⃣ Tests
 ### Setup
 
-Before running tests, ensure that the backend environment is properly set up:
+Before running tests, ensure that the backend environment is properly set up and that you are in the Backend folder.
 
 ### Running Tests
 To run the tests for the backend, you can use the following command:
