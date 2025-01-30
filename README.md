@@ -1,4 +1,4 @@
-# Humble Superhero App
+# Superhero App
 
 A full-stack application to manage superheroes, built with **Next.js (Frontend)** and **Express.js, Node.js (Backend)**.
 
