@@ -24,19 +24,19 @@ A full-stack application to manage superheroes, built with **Next.js (Frontend)*
 
 ### Prerequisites
 
-     Install Node.js (v18+ recommended)
-     Install TypeScript globally:
-          npm install -g typescript
+Install Node.js (v18+ recommended)
+Install TypeScript globally:
+          `npm install -g typescript`
 
 ### Installation
 
-     1️⃣ Navigate to the backend directory:
+1️⃣ Navigate to the backend directory:
           `cd Backend`
-     2️⃣ Install dependencies:
+2️⃣ Install dependencies:
           `npm install`
-     3️⃣ Start the backend server:
+3️⃣ Start the backend server:
           `npm run start`
-     4️⃣ Server runs at: http://localhost:3000
+4️⃣ Server runs at: http://localhost:3000
 
 ## API Endpoints
 
