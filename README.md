@@ -26,8 +26,8 @@ A full-stack application to manage superheroes, built with **Next.js (Frontend)*
 
 Install Node.js (v18+ recommended)
 Install TypeScript globally:
-          ```bash
-          `npm install -g typescript`
+```bash
+npm install -g typescript
 
 ### Installation
 
