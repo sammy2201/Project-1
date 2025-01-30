@@ -16,8 +16,8 @@ A full-stack application to manage superheroes, built with **Next.js (Frontend)*
 ## Project Structure
 
 /superhero-app  
-│── /frontend  
-│── /backend  
+│── /Frontend  
+│── /Backend  
 │── README.md
 
 ## 1️⃣ Backend (Express.js + TypeScript)
