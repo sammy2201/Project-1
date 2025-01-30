@@ -76,5 +76,16 @@ npm run dev
 
 4️⃣ Open the app in the browser: http://localhost:3001
 
+## 3️⃣ Tests
+### Setup
+
+Before running tests, ensure that the backend environment is properly set up:
+
+### Running Tests
+To run the tests for the backend, you can use the following command:
+```bash
+npm run test
+```
+
 ## Note
 1️⃣ Please run Backend first and then Frontend
