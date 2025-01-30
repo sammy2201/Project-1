@@ -28,20 +28,26 @@ Install Node.js (v18+ recommended)
 Install TypeScript globally:
 ```bash
 npm install -g typescript
+```
+
 
 ### Installation
 
 1️⃣ Navigate to the backend directory:
-          ```bash
-          `cd Backend`
+npm install -g typescript
+```bash
+cd Backend
+```
           
 2️⃣ Install dependencies:
-          ```bash
-          `npm install`
+```bash
+npm install
+```
           
 3️⃣ Start the backend server:
-          ```bash
-          `npm run start`
+```bash
+npm run start
+```
 4️⃣ Server runs at: http://localhost:3000
 
 ## API Endpoints
@@ -53,10 +59,19 @@ npm install -g typescript
 
 ### Installation
 
-     1️⃣ Navigate to the frontend directory:
-          `cd Frontend`
-     2️⃣ Install dependencies:
-          `npm install`
-     3️⃣ Start the development server:
-          `npm run dev`
-     4️⃣ Open the app in the browser: http://localhost:3001
+1️⃣ Navigate to the frontend directory:
+```bash
+cd Frontend
+```
+
+2️⃣ Install dependencies:
+```bash
+npm install
+```
+
+3️⃣ Start the development server:
+```bash
+npm run dev
+```
+
+4️⃣ Open the app in the browser: http://localhost:3001
