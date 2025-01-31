@@ -35,12 +35,14 @@ const SuperheroList = ({
     <div className="space-y-4 ">
       {superheroes.map((hero, index) => (
         <div key={index} className="p-4 bg-gray-100 rounded-md shadow">
-          <h2 className="text-2xl font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-[#1D3B53] to-[#3B4C77]">
+          <h2 className="text-2xl font-semibold text-center  text-transparent bg-clip-text bg-gradient-to-r from-[#1D3B53] to-[#3B4C77]">
             {hero.name}
           </h2>
 
-          <p className="text-sm text-gray-600">Power: {hero.superPower}</p>
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-600 font-serif ">
+            Power: {hero.superPower}
+          </p>
+          <p className="text-sm text-gray-600 font-serif ">
             Humility Score: {hero.humilityScore}
           </p>
         </div>

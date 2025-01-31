@@ -17,19 +17,23 @@ const Home = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-6">
-      <h1 className="text-3xl font-bold text-center mb-6 text-white">
+    <div>
+      <h1 className="text-3xl font-bold text-center mb-6 text-white mt-10 font-mono">
         Humble Superheroes
       </h1>
+      <div className="bg-white rounded shadow-lg p-6 px-6  mt-20 max-w-5xl mx-auto ">
+        <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-2">
+          <div className="text-gray-600">
+            <SuperheroForm onAddSuperhero={addSuperhero} />
+          </div>
 
-      <SuperheroForm onAddSuperhero={addSuperhero} />
-
-      <div className="mt-6">
-        <h2 className="text-2xl font-semibold text-white">Superheroes List</h2>
-        <SuperheroList
-          superheroes={superheroes}
-          setSuperheroes={setSuperheroes}
-        />
+          <div className="lg:col-span-1 h-96 overflow-y-auto mt-10 ml-3">
+            <SuperheroList
+              superheroes={superheroes}
+              setSuperheroes={setSuperheroes}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
