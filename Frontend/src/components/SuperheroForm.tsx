@@ -1,22 +1,25 @@
-// components/SuperheroForm.tsx
 "use client";
 import React, { useState } from "react";
 import axios from "axios";
 
+// This component is for adding a new superhero.
 const SuperheroForm = ({ onAddSuperhero }: { onAddSuperhero: Function }) => {
   const [name, setName] = useState("");
   const [superPower, setSuperPower] = useState("");
   const [humilityScore, setHumilityScore] = useState(1);
   const [error, setError] = useState("");
 
+  // Handle the form submission
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
+    // Check if any field is empty or humility score is not between 1-10
     if (!name || !superPower || humilityScore < 1 || humilityScore > 10) {
       setError("Please fill all fields correctly.");
       return;
     }
 
+    // Function to check if the name and superpower contain only letters
     const isAlphabhet = (str: string) => /^[A-Za-z.\s]+$/.test(str);
 
     if (!isAlphabhet(name)) {
@@ -30,6 +33,7 @@ const SuperheroForm = ({ onAddSuperhero }: { onAddSuperhero: Function }) => {
     }
 
     try {
+      // Send a request to the server to add the new superhero
       const response = await axios.post(
         "http://localhost:3000/super-heroes/add-super-hero",
         {

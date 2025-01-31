@@ -3,6 +3,7 @@
 import React, { useEffect } from "react";
 import axios from "axios";
 
+// Defining the structure of a superhero object
 interface Superhero {
   name: string;
   superPower: string;
@@ -16,6 +17,7 @@ const SuperheroList = ({
   superheroes: Superhero[];
   setSuperheroes: React.Dispatch<React.SetStateAction<Superhero[]>>;
 }) => {
+  // Fetch superheroes when the component mounts (on page load)
   useEffect(() => {
     const fetchSuperheroes = async () => {
       try {
